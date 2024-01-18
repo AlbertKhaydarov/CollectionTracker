@@ -42,7 +42,7 @@
 		841775E32B4ECF4A008A170E = {
 			isa = PBXGroup;
 			children = (
-				841775EE2B4ECF4B008A170E /* CollectionDemo */,
+				841775EE2B4ECF4B008A170E /* CollectionTracker */,
 				841775ED2B4ECF4B008A170E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		841775EE2B4ECF4B008A170E /* CollectionDemo */ = {
+		841775EE2B4ECF4B008A170E /* CollectionTracker */ = {
 			isa = PBXGroup;
 			children = (
 				841775EF2B4ECF4B008A170E /* AppDelegate.swift */,
@@ -67,7 +67,7 @@
 				841775FA2B4ECF56008A170E /* LaunchScreen.storyboard */,
 				841775FD2B4ECF56008A170E /* Info.plist */,
 			);
-			path = CollectionDemo;
+			path = CollectionTracker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 841775E72B4ECF4A008A170E /* Build configuration list for PBXProject "CollectionDemo" */;
+			buildConfigurationList = 841775E72B4ECF4A008A170E /* Build configuration list for PBXProject "CollectionTracker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -299,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.CollectionDemo.CollectionDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.CollectionTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.CollectionDemo.CollectionDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.CollectionTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -336,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		841775E72B4ECF4A008A170E /* Build configuration list for PBXProject "CollectionDemo" */ = {
+		841775E72B4ECF4A008A170E /* Build configuration list for PBXProject "CollectionTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841775FE2B4ECF56008A170E /* Debug */,
