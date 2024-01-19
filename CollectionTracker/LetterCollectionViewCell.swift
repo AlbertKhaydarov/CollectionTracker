@@ -12,10 +12,13 @@ final class LetterCollectionViewCell: UICollectionViewCell {
     
     let titleLabel = UILabel()
     
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
+        titleLabel.backgroundColor = .blue
         
         contentView.addSubview(titleLabel)
+        contentView.backgroundColor = .gray
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         
        

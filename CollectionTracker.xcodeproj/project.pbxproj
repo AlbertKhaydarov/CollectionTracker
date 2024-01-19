@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		7C6E60252B4F06C7008A6011 /* LetterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C6E60272B4F090A008A6011 /* SupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementaryView.swift; sourceTree = "<group>"; };
-		841775EC2B4ECF4B008A170E /* CollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841775EC2B4ECF4B008A170E /* CollectionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841775EF2B4ECF4B008A170E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		841775F12B4ECF4B008A170E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		841775F82B4ECF56008A170E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		841775ED2B4ECF4B008A170E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				841775EC2B4ECF4B008A170E /* CollectionDemo.app */,
+				841775EC2B4ECF4B008A170E /* CollectionTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		841775EB2B4ECF4B008A170E /* CollectionDemo */ = {
+		841775EB2B4ECF4B008A170E /* CollectionTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841776002B4ECF56008A170E /* Build configuration list for PBXNativeTarget "CollectionDemo" */;
+			buildConfigurationList = 841776002B4ECF56008A170E /* Build configuration list for PBXNativeTarget "CollectionTracker" */;
 			buildPhases = (
 				841775E82B4ECF4B008A170E /* Sources */,
 				841775E92B4ECF4B008A170E /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = CollectionDemo;
+			name = CollectionTracker;
 			productName = CollectionDemo;
-			productReference = 841775EC2B4ECF4B008A170E /* CollectionDemo.app */;
+			productReference = 841775EC2B4ECF4B008A170E /* CollectionTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				841775EB2B4ECF4B008A170E /* CollectionDemo */,
+				841775EB2B4ECF4B008A170E /* CollectionTracker */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CollectionDemo/Info.plist;
+				INFOPLIST_FILE = CollectionTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -315,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CollectionDemo/Info.plist;
+				INFOPLIST_FILE = CollectionTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -345,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841776002B4ECF56008A170E /* Build configuration list for PBXNativeTarget "CollectionDemo" */ = {
+		841776002B4ECF56008A170E /* Build configuration list for PBXNativeTarget "CollectionTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841776012B4ECF56008A170E /* Debug */,

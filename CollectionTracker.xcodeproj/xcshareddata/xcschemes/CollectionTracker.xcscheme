@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "841775EB2B4ECF4B008A170E"
-               BuildableName = "CollectionDemo.app"
-               BlueprintName = "CollectionDemo"
-               ReferencedContainer = "container:CollectionDemo.xcodeproj">
+               BuildableName = "CollectionTracker.app"
+               BlueprintName = "CollectionTracker"
+               ReferencedContainer = "container:CollectionTracker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "841775EB2B4ECF4B008A170E"
-            BuildableName = "CollectionDemo.app"
-            BlueprintName = "CollectionDemo"
-            ReferencedContainer = "container:CollectionDemo.xcodeproj">
+            BuildableName = "CollectionTracker.app"
+            BlueprintName = "CollectionTracker"
+            ReferencedContainer = "container:CollectionTracker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "841775EB2B4ECF4B008A170E"
-            BuildableName = "CollectionDemo.app"
-            BlueprintName = "CollectionDemo"
-            ReferencedContainer = "container:CollectionDemo.xcodeproj">
+            BuildableName = "CollectionTracker.app"
+            BlueprintName = "CollectionTracker"
+            ReferencedContainer = "container:CollectionTracker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

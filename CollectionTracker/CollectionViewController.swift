@@ -9,15 +9,16 @@ import UIKit
 
 class CollectionViewController: UIViewController {
     
-    private let letters = [
-        "а", "б", "в", "г", "д", "е", "ё", "ж", "з", "и", "й", "к",
-        "л", "м", "н", "о", "п", "р", "с", "т", "у", "ф", "х", "ц",
-        "ч", "ш" , "щ", "ъ", "ы", "ь", "э", "ю", "я"
+    private let letters = [ "а", "б", "в", "г", "д", "е", "ё", "ж", "з"
+//        "а", "б", "в", "г", "д", "е", "ё", "ж", "з", "и", "й", "к",
+//        "л", "м", "н", "о", "п", "р", "с", "т", "у", "ф", "х", "ц",
+//        "ч", "ш" , "щ", "ъ", "ы", "ь", "э", "ю", "я"
     ]
     
     private lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         let collection = UICollectionView(frame: .zero, collectionViewLayout: layout)
+      
         return collection
     }()
     
@@ -51,6 +52,12 @@ class CollectionViewController: UIViewController {
 }
 
 extension CollectionViewController: UICollectionViewDataSource {
+    
+    
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return letters.count
+    }
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return letters.count
     }
@@ -66,14 +73,20 @@ extension CollectionViewController: UICollectionViewDataSource {
         switch kind {
         case UICollectionView.elementKindSectionHeader:
             id = "header"
+           
         case UICollectionView.elementKindSectionFooter:
             id = "footer"
+           
         default:
             id = ""
         }
         
-        let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: id, for: indexPath) as! SupplementaryView
-        view.titleLabel.text = "Здесь находится Supplementary view"
+    let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: id, for: indexPath) as! SupplementaryView
+        if id == "header" {
+            view.titleLabel.text = letters[indexPath.section]
+        } else if id == "footer"{
+            view.titleLabel.text = "\(indexPath.section + 1)"
+        }
         return view
     }
 }
@@ -101,15 +114,15 @@ extension CollectionViewController: UICollectionViewDelegateFlowLayout, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.bounds.width / 2, height: 50)
+        return CGSize(width: (collectionView.bounds.width - 15) / 4, height: 50)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return 0
+        return 5
     }
      
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-            let cell = collectionView.cellForItem(at: indexPath) as? LetterCollectionViewCell
+        let cell = collectionView.cellForItem(at: indexPath) as? LetterCollectionViewCell
             cell?.titleLabel.font = UIFont.boldSystemFont(ofSize: 17)
         }
     
