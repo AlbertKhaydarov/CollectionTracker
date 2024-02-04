@@ -9,10 +9,10 @@ import UIKit
 
 class CollectionViewController: UIViewController {
     
-    private let letters = [ "а", "б", "в", "г", "д", "е", "ё", "ж", "з"
-//        "а", "б", "в", "г", "д", "е", "ё", "ж", "з", "и", "й", "к",
-//        "л", "м", "н", "о", "п", "р", "с", "т", "у", "ф", "х", "ц",
-//        "ч", "ш" , "щ", "ъ", "ы", "ь", "э", "ю", "я"
+    private let letters = [
+        "🙂", "😻", "🌺", "🐶", "❤️", "😱",
+        "😇", "😡", "🥶", "🤔", "🙌", "🍔",
+        "🥦", "🏓", "🥇", "🎸", "🏝", "😪"
     ]
     
     private lazy var collectionView: UICollectionView = {
@@ -54,9 +54,9 @@ class CollectionViewController: UIViewController {
 extension CollectionViewController: UICollectionViewDataSource {
     
     
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return letters.count
-    }
+//    func numberOfSections(in collectionView: UICollectionView) -> Int {
+//        return letters.count
+//    }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return letters.count
